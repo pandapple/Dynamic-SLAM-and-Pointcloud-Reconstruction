@@ -7,7 +7,7 @@ This project is an enhanced version of [ORB-SLAM2](https://github.com/raulmur/OR
 **This work is based on ORB-SLAM2 and has been published in:**
 
 > **Optimization RGB-D Three-dimensional Reconstruction Algorithm Based on Dynamic SLAM**  
-> 2022 IEEE Conference  
+> 2023 IEEE TIM  
 > [Paper Link](https://ieeexplore.ieee.org/document/10050782)
 
 ## Demo

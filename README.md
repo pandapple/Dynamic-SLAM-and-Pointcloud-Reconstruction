@@ -96,7 +96,7 @@ Also required:
 1. **Clone the repository:**
    ```bash
    git clone <repository-url>
-   cd ORB_SLAM2_dynamic_pt
+   cd
    ```
 
 2. **Build DBoW2:**
@@ -117,19 +117,13 @@ Also required:
    cd ../../..
    ```
 
-4. **Build ORB-SLAM2:**
+4. **Build SLAM:**
    ```bash
    mkdir build
    cd build
    cmake ..
    make -j4
    ```
-
-5. **Download ORB Vocabulary:**
-   ```bash
-   cd ..
-   # Download ORBvoc.txt.tar.gz from ORB-SLAM2 repository
-   # Extract to Vocabulary/ directory
    ```
 
 ## Configuration
@@ -161,13 +155,7 @@ PointCloudMapping.Resolution: 0.04  # Voxel grid resolution in meters
 ### RGB-D Example
 
 ```bash
-./Examples/RGB-D/rgbd_tum Vocabulary/ORBvoc.txt Examples/RGB-D/TUM1.yaml /path/to/rgbd/dataset /path/to/association/file
-```
-
-### Custom RGB-D Example
-
-```bash
-./Examples/RGB-D/rgbd_my Vocabulary/ORBvoc.txt Examples/RGB-D/scene.yaml
+./bin/rgbd_tum Vocabulary/ORBvoc.bin Examples/RGB-D/TUM3.yaml /path/to/rgbd/dataset /path/to/association/file
 ```
 
 ## Key Modifications from ORB-SLAM2
